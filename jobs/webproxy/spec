@@ -1,0 +1,17 @@
+---
+name: webproxy
+templates:
+  pre-start.sh.erb: bin/pre-start
+
+packages:
+
+properties:
+  env.http_proxy:
+    description: "Set http_proxy env var"
+    default: ""
+  env.https_proxy:
+    description: "Set https_proxy env var"
+    default: ""
+  env.no_proxy:
+    description: "Set no_proxy env var"
+    default: ""
