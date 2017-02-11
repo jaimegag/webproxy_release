@@ -16,7 +16,6 @@ In this example, we use BOSH's [Runtime Config](https://bosh.io/docs/runtime-con
 
 ```yaml
 addons:
-addons:
 - name: webproxy
   jobs: 
   - name: webproxy
