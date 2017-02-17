@@ -5,3 +5,5 @@ set -ex
 echo "export http_proxy='<%=p('env.http_proxy')%>'" >> /etc/profile.d/01_proxy_config.sh
 echo "export https_proxy='<%=p('env.https_proxy')%>'" >> /etc/profile.d/01_proxy_config.sh
 echo "export no_proxy='<%=p('env.no_proxy')%>'" >> /etc/profile.d/01_proxy_config.sh
+
+chmod +x /etc/profile.d/01_proxy_config.sh
