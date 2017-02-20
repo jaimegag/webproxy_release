@@ -1,6 +1,6 @@
 ---
 blobstore:
-  provider: local
+  provider: s3
   options:
-    blobstore_path: /tmp/webproxy
+    bucket_name: webproxy-release
 final_name: webproxy_release
