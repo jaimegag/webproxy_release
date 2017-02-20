@@ -1,0 +1,15 @@
+---
+packages: []
+jobs:
+- name: webproxy
+  version: 8ce7ec742c7bcf7d9ae2b7890bf5702068bbd142
+  fingerprint: 8ce7ec742c7bcf7d9ae2b7890bf5702068bbd142
+  sha1: d084df387f1e3155fe25d1eceb2c540ee75fb0ab
+license:
+  version: 84dfb02a12737055d941f4c8440032c4e8ed3ff1
+  fingerprint: 84dfb02a12737055d941f4c8440032c4e8ed3ff1
+  sha1: 8a818bbfa2731cad18c9b62666708d6877be5853
+commit_hash: 93a228b5
+uncommitted_changes: false
+name: webproxy_release
+version: '5'
